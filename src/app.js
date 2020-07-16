@@ -1,8 +1,8 @@
 const express = require("express");
 const geoip = require("geoip-lite");
 
-// just requiring sentry, not even initializing or using it
-require("@sentry/node");
+// just requiring ora, not even initializing or using it
+require("ora");
 
 // big-ish file (7 MB)
 const enWords = require("./enWords.json");
